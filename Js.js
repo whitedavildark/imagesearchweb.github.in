@@ -9,7 +9,7 @@ let Js = $('#search').click(function() {
     $('#data').html('');
     fetch(`https://api.pexels.com/v1/search?query=${input}`, {
       headers: {
-        Authorization: '563492ad6f91700001000001d2bcff0afe5d4ee69fc40110d1d3d15b'
+        Authorization: 'your_api'
       }
     }).then(res => 
       res.json()
@@ -30,7 +30,7 @@ let Js = $('#search').click(function() {
       m += 1;
       fetch(`https://api.pexels.com/v1/search?query=${input}&page=${m}`, {
         headers: {
-          Authorization: '563492ad6f91700001000001d2bcff0afe5d4ee69fc40110d1d3d15b'
+          Authorization: 'your_api'
         }
       }).then((res) => {
         return res.json()
@@ -49,7 +49,7 @@ let Js = $('#search').click(function() {
       m -= 1;
       fetch(`https://api.pexels.com/v1/search?query=${input}&page=${m}`, {
         headers: {
-          Authorization: '563492ad6f91700001000001d2bcff0afe5d4ee69fc40110d1d3d15b'
+          Authorization: 'your_api'
         }
       }).then((res) => {
         return res.json()
