@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <title></title>
+    <link rel="stylesheet" href="
+    ../Bootstrap/css/bootstrap.css" title="" type="" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+   <script src="app.js" type="module" charset="utf-8"></script>
+   <script src="../Js/jquery.min.js" type="text/javascript" charset="utf-8"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="container-xl" id="dat">
+    <div class="container-sm">
+     <h2>Stunning free images & royalty free stock</h2>
+     <h5>Over 1.9 million+ high quality stock images, videos and music shared by our talented community.</h5>
+     <form action="" method="get" accept-charset="utf-8">
+       
+   
+     <div id="flex" class="container-sm"><i class="fa fa-search bt " id="search"></i>
+       <input class="" type="search" name="" id="text" placeholder="search image,vector....." value="" autocomplete="on" />
+      <br />
+      <span id="loading"></span>
+      
+          </div>
+    </div>
+     <p class="text-light" >Background Image, Nature Image, Bikini girls,
+     Book's,Libraries</p>
+     </form>
+    </div> 
+    
+ <div class="px-2">
+    <div id="data" class="  my-2 p-1 ">
+      
+    </div>
+    <!---Pagenation start-->
+  
+ <nav class="justify-content-around navbar">
+   
+
+ <a href="#can" class="nav-link"  id="previous">
+ <i class="fa fa-arrow-left">Previous</i>
+ </a>
+  
+  
+   <a href="#dat" class="nav-link" id="next">Next<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+
+     
+   </nav>
+</div>
+<div class="container" id="can">
+  <header class="p-2 shadow">
+    <h1 class="">About Us</h1>
+    <p>And I will be in the future of this email and any attachments is intended only for the first time since I am a bit more of a good time and password 6 a great time in my opinion we can do list and password 6 of all the best of luck in your song's album also bought items</p>
+  </header>
+  <header class="gallery">
+    <h1 class="lead text-uppercase">
+      gallery
+    </h1>
+   
+  </header>
+</div>
+<!--Pagenation end-->
+   
+  
+ 
+  
+   <!--- <script type="text/javascript" charset="utf-8">
+      
+
+
+ var container = document.querySelector('#data');
+
+var cardTag;
+
+function getPhotos(images) {
+
+   images.map(image => {
+
+     cardTag = `<div class="card">
+
+              <img src=${image.src.tiny}  class='img-fluid'/>
+
+         </div>`;
+
+     container.innerHTML += cardTag;
+
+   })
+
+}
+
+fetch("https://api.pexels.com/v1/search?query=people",{
+
+  headers: {
+
+    Authorization: "563492ad6f91700001000001d2bcff0afe5d4ee69fc40110d1d3d15b"
+
+  }
+
+})
+
+   .then(resp => {
+
+     return resp.json()
+
+   })
+
+   .then(data => {
+
+     getPhotos(data.photos);
+
+   })
+
+
+      
+    </script>-->
+</body>
+
+</html>

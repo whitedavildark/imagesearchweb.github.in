@@ -1,0 +1,90 @@
+*{font-weight: bolder;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;font-family: 'Fjalla One', sans-serif;
+}
+a{
+  font-family: 'Fjalla One', sans-serif;
+}
+   .container-xl{
+     text-align: center;
+background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.6)),url(https://source.unsplash.com/featured/?{naked},{naked});
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-bottom: 16px;
+      padding-bottom: 13px;
+    }
+    .container-xl .container-sm{
+      margin-bottom: 100px;
+    }
+ .container-xl .container-sm h2{padding-top: 80px;
+   font-size: 30px;
+   text-align: center;
+   color: white;
+   font-weight: 777;
+   
+ }
+ .container-xl .container-sm h5{
+   margin-top: 30px;
+   font-size: 18px;
+   color: white;
+   font-weight: 777;
+   text-align: center;
+ } 
+ #flex{
+ background: white;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   width: auto;
+justify-content: space-between;
+   height: 50px;
+   border-radius: 5px;
+   margin: 20px auto;
+ 
+ } #flex input{
+   text-indent: 20px;
+   line-height: 45px;
+   width: 50%;
+   background:white;
+   border: none;
+   outline: none;
+   height: 45px;
+ }
+ #flex .fa{
+   font-size: 20px;
+   line-height: 50px;
+ }
+/* Only home main*/
+.Gallery img{
+  width: 50vw;
+  height: 400px;
+}
+.down img{
+  width: 50vw;
+  height: 400px;
+}
+#data{
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#data img{
+  width: auto;
+  height:auto;
+ 
+}
+@media (max-width: 400px){
+  .down img{
+    width: 100vw;
+    height: 300px;
+  }
+  .Gallery img{
+    width: 50vw;
+    height: 200px;
+  }
+}
+
+
